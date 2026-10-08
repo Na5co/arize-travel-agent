@@ -1,33 +1,45 @@
+import uuid
+
 from dotenv import load_dotenv
-from fastapi import FastAPI
-from langchain_core.messages import HumanMessage
+from fastapi import FastAPI, HTTPException
+from phoenix.otel import register
 from pydantic import BaseModel
+
 from agent import build_agent
+from agent import chat as run_chat
 
 load_dotenv()
+register(auto_instrument=True, batch=True)  # traces to Phoenix (project: PHOENIX_PROJECT_NAME)
 
 agent = build_agent()
 
 app = FastAPI(
-    title="LangGraph Agent API",
-    description="A simple API for interacting with a LangGraph agent that can search the web",
-    version="0.1.0",
+    title="Travel Agent API",
+    description="A LangGraph travel agent that compares flights and prepares bookings",
+    version="0.2.0",
 )
 
 
 class ChatRequest(BaseModel):
     message: str
+    session_id: str | None = None  # omit to start a new conversation
 
 
 class ChatResponse(BaseModel):
     response: str
+    session_id: str
 
 
 @app.post("/chat", response_model=ChatResponse)
 def chat(request: ChatRequest):
-    """Send a message to the agent and get a response."""
-    result = agent.invoke({"messages": [HumanMessage(content=request.message)]})
-    return ChatResponse(response=result["messages"][-1].content)
+    """Send a message to the agent. Send the returned session_id back to continue the conversation."""
+    if request.session_id is None:
+        session_id = uuid.uuid4().hex  # issued by the server, never chosen by the client
+    elif agent.get_state({"configurable": {"thread_id": request.session_id}}).values:
+        session_id = request.session_id
+    else:
+        raise HTTPException(status_code=404, detail="Unknown session_id. Omit it to start a new conversation.")
+    return ChatResponse(response=run_chat(agent, request.message, session_id), session_id=session_id)
 
 
 @app.get("/health")

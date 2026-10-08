@@ -1,0 +1,951 @@
+span_id,session_id,conversation,user_message,reply,user_friction_label,user_friction_explanation
+529d494aae21f136,attractions-8c326d,(no earlier messages),What are the top attractions in Lisbon?,"Lisbon, the capital of Portugal, offers a variety of attractions that cater to different interests. Here are some of the top attractions you might want to explore:
+
+1. **Belém Tower (Torre de Belém)**: A UNESCO World Heritage Site, this iconic tower is a symbol of Portugal's Age of Discovery.
+
+2. **Jerónimos Monastery (Mosteiro dos Jerónimos)**: Another UNESCO World Heritage Site, this monastery is a masterpiece of Manueline architecture.
+
+3. **Alfama District**: The oldest district in Lisbon, known for its narrow streets, traditional Fado music, and stunning views from the São Jorge Castle.
+
+4. **São Jorge Castle (Castelo de São Jorge)**: Offers panoramic views of Lisbon and is a great place to explore the city's history.
+
+5. **Lisbon Oceanarium (Oceanário de Lisboa)**: One of the largest indoor aquariums in Europe, featuring a wide variety of marine life.
+
+6. **Santa Justa Lift (Elevador de Santa Justa)**: A unique elevator offering great views of the city.
+
+7. **Rossio Square (Praça do Rossio)**: A lively square in the heart of Lisbon, surrounded by shops, cafes, and beautiful architecture.
+
+8. **Bairro Alto**: Known for its vibrant nightlife, with numerous bars and restaurants.
+
+9. **LX Factory**: A creative hub with shops, restaurants, and art spaces located in a former industrial complex.
+
+10. **Lisbon Tram 28**: A historic tram route that takes you through some of the city's most picturesque neighborhoods.
+
+Consider getting a Lisboa Card, which offers free transportation on Lisbon's metro, buses, trams, and lifts, as well as discounts and free entry to many attractions.",no_friction,"The user's message 'What are the top attractions in Lisbon?' does not react to any previous assistant behavior and thus expresses no dissatisfaction or friction. This is a straightforward request for information without any indication of prior interaction or error with an assistant. As such, it fits the category of a first user message with no preceding behavior to react to."
+2a522fcd0f402aaf,attractions-d70b70,(no earlier messages),What are the top attractions in Lisbon?,"Lisbon is a vibrant city with a rich history and plenty of attractions to explore. Here are some of the top attractions in Lisbon:
+
+1. **Belém Tower (Torre de Belém)**: A UNESCO World Heritage Site, this iconic tower is a symbol of Portugal's Age of Discovery.
+
+2. **Jerónimos Monastery (Mosteiro dos Jerónimos)**: Another UNESCO World Heritage Site, this monastery is a masterpiece of Manueline architecture.
+
+3. **Alfama District**: The oldest district in Lisbon, known for its narrow streets, traditional Fado music, and stunning views from the São Jorge Castle.
+
+4. **Lisbon Oceanarium**: One of the largest aquariums in the world, featuring a wide variety of marine life.
+
+5. **Praça do Comércio**: A grand square located near the Tagus River, surrounded by beautiful architecture and offering great views.
+
+6. **Elevador de Santa Justa**: A unique elevator offering panoramic views of the city.
+
+7. **Arco da Rua Augusta**: An iconic archway located in the heart of Lisbon, offering a viewing platform with stunning city views.
+
+8. **Tram 28**: A historic tram route that takes you through some of Lisbon's most charming neighborhoods.
+
+9. **Fado Music**: Experience traditional Portuguese Fado music in the historic Alfama district.
+
+10. **LX Factory**: A creative hub with shops, restaurants, and art spaces located in a former industrial complex.
+
+These attractions offer a mix of history, culture, and modern experiences, making Lisbon a captivating destination for travelers.",no_friction,The latest user message does not react to any preceding behavior from the assistant since this is the first message. It is simply a query asking for information.
+bff1beed8cf4b860,beach-trip-8c326d,(no earlier messages),I want a beach trip in August. Any recommendations?,"Here are some great beach destinations to consider for a trip in August 2026:
+
+1. **Greece**: Explore the pink-tinged coves of the Greek islands, perfect for a picturesque beach holiday.
+2. **Thailand**: Known for its stunning beaches and vibrant culture, Thailand offers a tropical paradise.
+3. **Bali, Indonesia**: Famous for its beautiful beaches and unique cultural experiences.
+4. **Philippines**: With thousands of islands, the Philippines offers diverse beach experiences.
+5. **Malaysia**: Enjoy the pristine beaches and rich marine life.
+6. **Turkey**: Experience the beautiful beaches along the Turkish Riviera.
+7. **New Zealand**: Although it's winter in August, the beaches in the North Island can still be pleasant.
+8. **Italy**: Discover uncrowded beaches with a mix of culture and relaxation.
+
+These destinations offer a mix of relaxation, adventure, and cultural experiences. Let me know if you need more information or help with planning your trip!",no_friction,"The user's message initiates a conversation by asking for travel recommendations in August, with no preceding assistant behavior to react to. This is a straightforward request for information without any expression of dissatisfaction or negative feedback."
+79181cfc028404b9,beach-trip-8c326d,"user: I want a beach trip in August. Any recommendations?
+assistant: Here are some great beach destinations to consider for a trip in August 2026:
+
+1. **Greece**: Explore the pink-tinged coves of the Greek islands, perfect for a picturesque beach holiday.
+2. **Thailand**: Known for its stunning beaches and vibrant culture, Thailand offers a tropical paradise.
+3. **Bali, Indonesia**: Famous for its beautiful beaches and unique cultural experiences.
+4. **Philippines**: With thousands of islands, the Philippines offers diverse beach experiences.
+5. **Malaysia**: Enjoy the pristine beaches and rich marine life.
+6. **Turkey**: Experience the beautiful beaches along the Turkish Riviera.
+7. **New Zealand**: Although it's winter in August, the beaches in the North Island can still be pleasant.
+8. **Italy**: Discover uncrowded beaches with a mix of culture and relaxation.
+
+These destinations offer a mix of relaxation, adventure, and cultural experiences. Let me know if you need more information or help with planning your trip!","I'm flying from London on 2027-08-10. Which of Lisbon, Barcelona or Sardinia can I reach for under 150 EUR?","You can reach both Barcelona and Sardinia from London for under 150 EUR on 2027-08-10. Here are the options:
+
+### Barcelona
+1. **Wizz Air**
+   - **Price**: 105 EUR
+   - **From**: London Heathrow Airport (LHR)
+   - **To**: Josep Tarradellas Barcelona-El Prat Airport (BCN)
+   - **Departure**: 08:15
+   - **Duration**: 3 hours 48 minutes
+   - **Stops**: 1
+
+2. **Wizz Air**
+   - **Price**: 133 EUR
+   - **From**: London Gatwick Airport (LGW)
+   - **To**: Josep Tarradellas Barcelona-El Prat Airport (BCN)
+   - **Departure**: 16:30
+   - **Duration**: 3 hours 33 minutes
+   - **Stops**: 1
+
+3. **Air France**
+   - **Price**: 138 EUR
+   - **From**: London Stansted Airport (STN)
+   - **To**: Josep Tarradellas Barcelona-El Prat Airport (BCN)
+   - **Departure**: 15:15
+   - **Duration**: 4 hours 20 minutes
+   - **Stops**: 1
+
+4. **Air France**
+   - **Price**: 145 EUR
+   - **From**: London Gatwick Airport (LGW)
+   - **To**: Josep Tarradellas Barcelona-El Prat Airport (BCN)
+   - **Departure**: 13:30
+   - **Duration**: 3 hours 30 minutes
+   - **Stops**: 1
+
+### Sardinia
+1. **Austrian Airlines**
+   - **Price**: 110 EUR
+   - **From**: London Heathrow Airport (LHR)
+   - **To**: Cagliari Elmas Airport (CAG)
+   - **Departure**: 12:00
+   - **Duration**: 4 hours 26 minutes
+   - **Stops**: 1
+
+Let me know if you would like to proceed with booking any of these flights!",no_friction,The user's follow-up message narrows down their options by specifying a budget constraint and lists specific destinations they are interested in. This is a continuation of the planning process without indicating any dissatisfaction or correction regarding the assistant's previous recommendations.
+a0b85fe2a3c3f0f5,beach-trip-8c326d,"user: I want a beach trip in August. Any recommendations?
+assistant: Here are some great beach destinations to consider for a trip in August 2026:
+
+1. **Greece**: Explore the pink-tinged coves of the Greek islands, perfect for a picturesque beach holiday.
+2. **Thailand**: Known for its stunning beaches and vibrant culture, Thailand offers a tropical paradise.
+3. **Bali, Indonesia**: Famous for its beautiful beaches and unique cultural experiences.
+4. **Philippines**: With thousands of islands, the Philippines offers diverse beach experiences.
+5. **Malaysia**: Enjoy the pristine beaches and rich marine life.
+6. **Turkey**: Experience the beautiful beaches along the Turkish Riviera.
+7. **New Zealand**: Although it's winter in August, the beaches in the North Island can still be pleasant.
+8. **Italy**: Discover uncrowded beaches with a mix of culture and relaxation.
+
+These destinations offer a mix of relaxation, adventure, and cultural experiences. Let me know if you need more information or help with planning your trip!
+user: I'm flying from London on 2027-08-10. Which of Lisbon, Barcelona or Sardinia can I reach for under 150 EUR?
+assistant: You can reach both Barcelona and Sardinia from London for under 150 EUR on 2027-08-10. Here are the options:
+
+### Barcelona
+1. **Wizz Air**
+   - **Price**: 105 EUR
+   - **From**: London Heathrow Airport (LHR)
+   - **To**: Josep Tarradellas Barcelona-El Prat Airport (BCN)
+   - **Departure**: 08:15
+   - **Duration**: 3 hours 48 minutes
+   - **Stops**: 1
+
+2. **Wizz Air**
+   - **Price**: 133 EUR
+   - **From**: London Gatwick Airport (LGW)
+   - **To**: Josep Tarradellas Barcelona-El Prat Airport (BCN)
+   - **Departure**: 16:30
+   - **Duration**: 3 hours 33 minutes
+   - **Stops**: 1
+
+3. **Air France**
+   - **Price**: 138 EUR
+   - **From**: London Stansted Airport (STN)
+   - **To**: Josep Tarradellas Barcelona-El Prat Airport (BCN)
+   - **Departure**: 15:15
+   - **Duration**: 4 hours 20 minutes
+   - **Stops**: 1
+
+4. **Air France**
+   - **Price**: 145 EUR
+   - **From**: London Gatwick Airport (LGW)
+   - **To**: Josep Tarradellas Barcelona-El Prat Airport (BCN)
+   - **Departure**: 13:30
+   - **Duration**: 3 hours 30 minutes
+   - **Stops**: 1
+
+### Sardinia
+1. **Austrian Airlines**
+   - **Price**: 110 EUR
+   - **From**: London Heathrow Airport (LHR)
+   - **To**: Cagliari Elmas Airport (CAG)
+   - **Departure**: 12:00
+   - **Duration**: 4 hours 26 minutes
+   - **Stops**: 1
+
+Let me know if you would like to proceed with booking any of these flights!",Let's go with Sardinia. Can you book it for me?,"I've prepared the flight details for you. Here is the summary:
+
+- **Airline**: Austrian Airlines
+- **From**: London Heathrow Airport (LHR)
+- **To**: Cagliari Elmas Airport (CAG), Sardinia
+- **Departure**: 12:00
+- **Duration**: 4 hours 26 minutes
+- **Stops**: 1
+- **Price**: 110 EUR
+
+You can book and pay for the flight through this [link](https://www.google.com/travel/flights?q=Flights%20from%20London%20to%20Sardinia%20on%202027-08-10%20one%20way).
+
+Please let me know if there's anything else I can assist you with!",no_friction,"The latest user message is a direct decision and a follow-up on the information provided by the assistant. The user selected Sardinia as the destination and requested the assistant to book the flight. There is no indication that the user is correcting, retrying previous requests, expressing frustration, or challenging the assistant's previous suggestions or actions. The communication is a continuation of the planning process without any expression of dissatisfaction."
+8f766031e627c2f0,beach-trip-8c326d,"user: I want a beach trip in August. Any recommendations?
+assistant: Here are some great beach destinations to consider for a trip in August 2026:
+
+1. **Greece**: Explore the pink-tinged coves of the Greek islands, perfect for a picturesque beach holiday.
+2. **Thailand**: Known for its stunning beaches and vibrant culture, Thailand offers a tropical paradise.
+3. **Bali, Indonesia**: Famous for its beautiful beaches and unique cultural experiences.
+4. **Philippines**: With thousands of islands, the Philippines offers diverse beach experiences.
+5. **Malaysia**: Enjoy the pristine beaches and rich marine life.
+6. **Turkey**: Experience the beautiful beaches along the Turkish Riviera.
+7. **New Zealand**: Although it's winter in August, the beaches in the North Island can still be pleasant.
+8. **Italy**: Discover uncrowded beaches with a mix of culture and relaxation.
+
+These destinations offer a mix of relaxation, adventure, and cultural experiences. Let me know if you need more information or help with planning your trip!
+user: I'm flying from London on 2027-08-10. Which of Lisbon, Barcelona or Sardinia can I reach for under 150 EUR?
+assistant: You can reach both Barcelona and Sardinia from London for under 150 EUR on 2027-08-10. Here are the options:
+
+### Barcelona
+1. **Wizz Air**
+   - **Price**: 105 EUR
+   - **From**: London Heathrow Airport (LHR)
+   - **To**: Josep Tarradellas Barcelona-El Prat Airport (BCN)
+   - **Departure**: 08:15
+   - **Duration**: 3 hours 48 minutes
+   - **Stops**: 1
+
+2. **Wizz Air**
+   - **Price**: 133 EUR
+   - **From**: London Gatwick Airport (LGW)
+   - **To**: Josep Tarradellas Barcelona-El Prat Airport (BCN)
+   - **Departure**: 16:30
+   - **Duration**: 3 hours 33 minutes
+   - **Stops**: 1
+
+3. **Air France**
+   - **Price**: 138 EUR
+   - **From**: London Stansted Airport (STN)
+   - **To**: Josep Tarradellas Barcelona-El Prat Airport (BCN)
+   - **Departure**: 15:15
+   - **Duration**: 4 hours 20 minutes
+   - **Stops**: 1
+
+4. **Air France**
+   - **Price**: 145 EUR
+   - **From**: London Gatwick Airport (LGW)
+   - **To**: Josep Tarradellas Barcelona-El Prat Airport (BCN)
+   - **Departure**: 13:30
+   - **Duration**: 3 hours 30 minutes
+   - **Stops**: 1
+
+### Sardinia
+1. **Austrian Airlines**
+   - **Price**: 110 EUR
+   - **From**: London Heathrow Airport (LHR)
+   - **To**: Cagliari Elmas Airport (CAG)
+   - **Departure**: 12:00
+   - **Duration**: 4 hours 26 minutes
+   - **Stops**: 1
+
+Let me know if you would like to proceed with booking any of these flights!
+user: Let's go with Sardinia. Can you book it for me?
+assistant: I've prepared the flight details for you. Here is the summary:
+
+- **Airline**: Austrian Airlines
+- **From**: London Heathrow Airport (LHR)
+- **To**: Cagliari Elmas Airport (CAG), Sardinia
+- **Departure**: 12:00
+- **Duration**: 4 hours 26 minutes
+- **Stops**: 1
+- **Price**: 110 EUR
+
+You can book and pay for the flight through this [link](https://www.google.com/travel/flights?q=Flights%20from%20London%20to%20Sardinia%20on%202027-08-10%20one%20way).
+
+Please let me know if there's anything else I can assist you with!",Can't you just take my card and do it?,"I'm unable to take card details or make bookings directly. However, you can easily book the flight using the [link provided](https://www.google.com/travel/flights?q=Flights%20from%20London%20to%20Sardinia%20on%202027-08-10%20one%20way). If you need any further assistance, feel free to ask!",friction,"The user's message indicates a level of frustration or disappointment with the assistant's inability to directly complete the booking, which is a feature they expected. They question why the assistant cannot process the payment directly, implying dissatisfaction with having to handle the payment separately, which aligns with expressing friction as outlined in the rubric."
+7c5c270fd423ae3b,beach-trip-d70b70,(no earlier messages),I want a beach trip in August. Any recommendations?,"Here are some great beach destinations to consider for a trip in August:
+
+1. **Central Vietnam**: Destinations like Da Nang and Quy Nhon offer favorable coastal conditions in August, making them ideal for beach lovers.
+
+2. **Bora Bora**: Known for its stunning turquoise waters and luxurious resorts, Bora Bora is a dream destination for a beach getaway.
+
+3. **Costa Brava, Spain**: With its beautiful beaches and charming coastal towns, Costa Brava is a fantastic choice for a summer beach trip.
+
+4. **Bahamas**: The Bahamas offer perfect temperatures and pristine beaches, making it a popular choice for beach vacations.
+
+5. **Torremolinos, Spain**: Located on the Costa del Sol, Torremolinos Beach is known for its long promenade, beach bars, and vibrant atmosphere.
+
+6. **Turkey**: Beaches like Kelebekler Vadisi offer stunning views and a unique experience.
+
+These destinations offer a mix of beautiful beaches, great weather, and plenty of activities to enjoy. Let me know if you need more information or help with planning your trip!",no_friction,"The latest user message is an initial inquiry where the user is seeking recommendations for a beach trip in August. There is no prior interaction with the AI assistant within this particular exchange. The user is neither correcting, retrying, nor expressing any frustration or challenge towards a previous assistant response. Therefore, the message lacks any of the signals that would indicate friction as per the rubric guidelines."
+df464b09aa896446,beach-trip-d70b70,"user: I want a beach trip in August. Any recommendations?
+assistant: Here are some great beach destinations to consider for a trip in August:
+
+1. **Central Vietnam**: Destinations like Da Nang and Quy Nhon offer favorable coastal conditions in August, making them ideal for beach lovers.
+
+2. **Bora Bora**: Known for its stunning turquoise waters and luxurious resorts, Bora Bora is a dream destination for a beach getaway.
+
+3. **Costa Brava, Spain**: With its beautiful beaches and charming coastal towns, Costa Brava is a fantastic choice for a summer beach trip.
+
+4. **Bahamas**: The Bahamas offer perfect temperatures and pristine beaches, making it a popular choice for beach vacations.
+
+5. **Torremolinos, Spain**: Located on the Costa del Sol, Torremolinos Beach is known for its long promenade, beach bars, and vibrant atmosphere.
+
+6. **Turkey**: Beaches like Kelebekler Vadisi offer stunning views and a unique experience.
+
+These destinations offer a mix of beautiful beaches, great weather, and plenty of activities to enjoy. Let me know if you need more information or help with planning your trip!","I'm flying from London on 2027-08-10. Which of Lisbon, Barcelona or Sardinia can I reach for under 150 EUR?","You can reach both Barcelona and Sardinia from London for under 150 EUR on August 10, 2027. Here are the options:
+
+### Barcelona
+1. **Wizz Air**
+   - **Flight ID**: W61768
+   - **From**: London Heathrow Airport (LHR)
+   - **To**: Josep Tarradellas Barcelona-El Prat Airport (BCN)
+   - **Departure**: 08:15
+   - **Duration**: 3 hours 48 minutes
+   - **Stops**: 1
+   - **Price**: 105 EUR
+
+2. **Wizz Air**
+   - **Flight ID**: W63785
+   - **From**: London Gatwick Airport (LGW)
+   - **To**: Josep Tarradellas Barcelona-El Prat Airport (BCN)
+   - **Departure**: 16:30
+   - **Duration**: 3 hours 33 minutes
+   - **Stops**: 1
+   - **Price**: 133 EUR
+
+3. **Air France**
+   - **Flight ID**: AF257
+   - **From**: London Stansted Airport (STN)
+   - **To**: Josep Tarradellas Barcelona-El Prat Airport (BCN)
+   - **Departure**: 15:15
+   - **Duration**: 4 hours 20 minutes
+   - **Stops**: 1
+   - **Price**: 138 EUR
+
+4. **Air France**
+   - **Flight ID**: AF8052
+   - **From**: London Gatwick Airport (LGW)
+   - **To**: Josep Tarradellas Barcelona-El Prat Airport (BCN)
+   - **Departure**: 13:30
+   - **Duration**: 3 hours 30 minutes
+   - **Stops**: 1
+   - **Price**: 145 EUR
+
+### Sardinia
+1. **Austrian**
+   - **Flight ID**: OS7137
+   - **From**: London Heathrow Airport (LHR)
+   - **To**: Cagliari Elmas Airport (CAG)
+   - **Departure**: 12:00
+   - **Duration**: 4 hours 26 minutes
+   - **Stops**: 1
+   - **Price**: 110 EUR
+
+Unfortunately, there are no flights to Lisbon under 150 EUR on that date.
+
+Let me know if you would like to proceed with booking any of these flights!",no_friction,"The user asked the assistant for beach trip recommendations in August, and the assistant provided several options. The user's latest message does not express dissatisfaction or indicate that the assistant's recommendations were wrong. Instead, it moves forward by asking a follow-up question regarding travel cost from London to specific destinations. This constitutes building upon the previous response without implying it was incorrect or unsatisfactory."
+e4320171488cbde8,beach-trip-d70b70,"user: I want a beach trip in August. Any recommendations?
+assistant: Here are some great beach destinations to consider for a trip in August:
+
+1. **Central Vietnam**: Destinations like Da Nang and Quy Nhon offer favorable coastal conditions in August, making them ideal for beach lovers.
+
+2. **Bora Bora**: Known for its stunning turquoise waters and luxurious resorts, Bora Bora is a dream destination for a beach getaway.
+
+3. **Costa Brava, Spain**: With its beautiful beaches and charming coastal towns, Costa Brava is a fantastic choice for a summer beach trip.
+
+4. **Bahamas**: The Bahamas offer perfect temperatures and pristine beaches, making it a popular choice for beach vacations.
+
+5. **Torremolinos, Spain**: Located on the Costa del Sol, Torremolinos Beach is known for its long promenade, beach bars, and vibrant atmosphere.
+
+6. **Turkey**: Beaches like Kelebekler Vadisi offer stunning views and a unique experience.
+
+These destinations offer a mix of beautiful beaches, great weather, and plenty of activities to enjoy. Let me know if you need more information or help with planning your trip!
+user: I'm flying from London on 2027-08-10. Which of Lisbon, Barcelona or Sardinia can I reach for under 150 EUR?
+assistant: You can reach both Barcelona and Sardinia from London for under 150 EUR on August 10, 2027. Here are the options:
+
+### Barcelona
+1. **Wizz Air**
+   - **Flight ID**: W61768
+   - **From**: London Heathrow Airport (LHR)
+   - **To**: Josep Tarradellas Barcelona-El Prat Airport (BCN)
+   - **Departure**: 08:15
+   - **Duration**: 3 hours 48 minutes
+   - **Stops**: 1
+   - **Price**: 105 EUR
+
+2. **Wizz Air**
+   - **Flight ID**: W63785
+   - **From**: London Gatwick Airport (LGW)
+   - **To**: Josep Tarradellas Barcelona-El Prat Airport (BCN)
+   - **Departure**: 16:30
+   - **Duration**: 3 hours 33 minutes
+   - **Stops**: 1
+   - **Price**: 133 EUR
+
+3. **Air France**
+   - **Flight ID**: AF257
+   - **From**: London Stansted Airport (STN)
+   - **To**: Josep Tarradellas Barcelona-El Prat Airport (BCN)
+   - **Departure**: 15:15
+   - **Duration**: 4 hours 20 minutes
+   - **Stops**: 1
+   - **Price**: 138 EUR
+
+4. **Air France**
+   - **Flight ID**: AF8052
+   - **From**: London Gatwick Airport (LGW)
+   - **To**: Josep Tarradellas Barcelona-El Prat Airport (BCN)
+   - **Departure**: 13:30
+   - **Duration**: 3 hours 30 minutes
+   - **Stops**: 1
+   - **Price**: 145 EUR
+
+### Sardinia
+1. **Austrian**
+   - **Flight ID**: OS7137
+   - **From**: London Heathrow Airport (LHR)
+   - **To**: Cagliari Elmas Airport (CAG)
+   - **Departure**: 12:00
+   - **Duration**: 4 hours 26 minutes
+   - **Stops**: 1
+   - **Price**: 110 EUR
+
+Unfortunately, there are no flights to Lisbon under 150 EUR on that date.
+
+Let me know if you would like to proceed with booking any of these flights!",Let's go with Sardinia. Can you book it for me?,"Here are the details for your flight to Sardinia:
+
+- **Airline**: Austrian
+- **Flight ID**: OS7137
+- **From**: London Heathrow Airport (LHR)
+- **To**: Cagliari Elmas Airport (CAG)
+- **Departure**: 12:00
+- **Duration**: 4 hours 26 minutes
+- **Stops**: 1
+- **Price**: 110 EUR
+
+You can book your flight through the following link: [Book Flight to Sardinia](https://www.google.com/travel/flights?q=Flights%20from%20London%20to%20Sardinia%20on%202027-08-10%20one%20way).
+
+Please note that nothing has been booked or paid yet. You will need to complete the booking and payment on the provider's site. Let me know if you need any more assistance!",no_friction,"The user simply accepts one of the options provided by the assistant without indicating any misunderstanding, disappointment, or need for correction. The message does not express dissatisfaction or challenge any of the information provided by the assistant, but rather follows up with a request for the assistant to book the chosen option."
+f4ce615cd98223b0,beach-trip-d70b70,"user: I want a beach trip in August. Any recommendations?
+assistant: Here are some great beach destinations to consider for a trip in August:
+
+1. **Central Vietnam**: Destinations like Da Nang and Quy Nhon offer favorable coastal conditions in August, making them ideal for beach lovers.
+
+2. **Bora Bora**: Known for its stunning turquoise waters and luxurious resorts, Bora Bora is a dream destination for a beach getaway.
+
+3. **Costa Brava, Spain**: With its beautiful beaches and charming coastal towns, Costa Brava is a fantastic choice for a summer beach trip.
+
+4. **Bahamas**: The Bahamas offer perfect temperatures and pristine beaches, making it a popular choice for beach vacations.
+
+5. **Torremolinos, Spain**: Located on the Costa del Sol, Torremolinos Beach is known for its long promenade, beach bars, and vibrant atmosphere.
+
+6. **Turkey**: Beaches like Kelebekler Vadisi offer stunning views and a unique experience.
+
+These destinations offer a mix of beautiful beaches, great weather, and plenty of activities to enjoy. Let me know if you need more information or help with planning your trip!
+user: I'm flying from London on 2027-08-10. Which of Lisbon, Barcelona or Sardinia can I reach for under 150 EUR?
+assistant: You can reach both Barcelona and Sardinia from London for under 150 EUR on August 10, 2027. Here are the options:
+
+### Barcelona
+1. **Wizz Air**
+   - **Flight ID**: W61768
+   - **From**: London Heathrow Airport (LHR)
+   - **To**: Josep Tarradellas Barcelona-El Prat Airport (BCN)
+   - **Departure**: 08:15
+   - **Duration**: 3 hours 48 minutes
+   - **Stops**: 1
+   - **Price**: 105 EUR
+
+2. **Wizz Air**
+   - **Flight ID**: W63785
+   - **From**: London Gatwick Airport (LGW)
+   - **To**: Josep Tarradellas Barcelona-El Prat Airport (BCN)
+   - **Departure**: 16:30
+   - **Duration**: 3 hours 33 minutes
+   - **Stops**: 1
+   - **Price**: 133 EUR
+
+3. **Air France**
+   - **Flight ID**: AF257
+   - **From**: London Stansted Airport (STN)
+   - **To**: Josep Tarradellas Barcelona-El Prat Airport (BCN)
+   - **Departure**: 15:15
+   - **Duration**: 4 hours 20 minutes
+   - **Stops**: 1
+   - **Price**: 138 EUR
+
+4. **Air France**
+   - **Flight ID**: AF8052
+   - **From**: London Gatwick Airport (LGW)
+   - **To**: Josep Tarradellas Barcelona-El Prat Airport (BCN)
+   - **Departure**: 13:30
+   - **Duration**: 3 hours 30 minutes
+   - **Stops**: 1
+   - **Price**: 145 EUR
+
+### Sardinia
+1. **Austrian**
+   - **Flight ID**: OS7137
+   - **From**: London Heathrow Airport (LHR)
+   - **To**: Cagliari Elmas Airport (CAG)
+   - **Departure**: 12:00
+   - **Duration**: 4 hours 26 minutes
+   - **Stops**: 1
+   - **Price**: 110 EUR
+
+Unfortunately, there are no flights to Lisbon under 150 EUR on that date.
+
+Let me know if you would like to proceed with booking any of these flights!
+user: Let's go with Sardinia. Can you book it for me?
+assistant: Here are the details for your flight to Sardinia:
+
+- **Airline**: Austrian
+- **Flight ID**: OS7137
+- **From**: London Heathrow Airport (LHR)
+- **To**: Cagliari Elmas Airport (CAG)
+- **Departure**: 12:00
+- **Duration**: 4 hours 26 minutes
+- **Stops**: 1
+- **Price**: 110 EUR
+
+You can book your flight through the following link: [Book Flight to Sardinia](https://www.google.com/travel/flights?q=Flights%20from%20London%20to%20Sardinia%20on%202027-08-10%20one%20way).
+
+Please note that nothing has been booked or paid yet. You will need to complete the booking and payment on the provider's site. Let me know if you need any more assistance!",Can't you just take my card and do it?,"I'm unable to take any card details or make bookings directly. You can complete the booking and payment through the provided link on the airline's or travel provider's website. If you have any questions or need further assistance, feel free to ask!",friction,"The user's message, ""Can't you just take my card and do it?"", suggests frustration with the assistant's inability to directly handle the payment and booking. This question implies that the user expected the assistant to have the capability to complete the transaction on their behalf, demonstrating a challenge to the assistant's limitations. It reflects dissatisfaction with the assistant's preceding response, which only provided a link for the user to complete the booking themselves."
+cf6699628b96a7e2,budget-direct-8c326d,(no earlier messages),Direct flights from London to Barcelona on 2027-08-11 under 120 EUR?,"I found a direct flight from London to Barcelona on 2027-08-11 that fits your budget:
+
+- **Airline:** Air France
+- **Flight ID:** AF5645
+- **Departure:** 13:30 from London City Airport (LCY)
+- **Arrival:** Josep Tarradellas Barcelona-El Prat Airport (BCN)
+- **Duration:** 2 hours and 1 minute
+- **Price:** 111 EUR
+
+Would you like to proceed with booking this flight?",no_friction,The user's message does not display any negative reaction or correction to any prior action by the assistant. It is a straightforward request for information regarding flights on a specified date with a cost constraint.
+6d44c8a1bf33db7a,budget-direct-d70b70,(no earlier messages),Direct flights from London to Barcelona on 2027-08-11 under 120 EUR?,"I found a direct flight from London to Barcelona on August 11, 2027, that fits your budget:
+
+- **Airline:** Air France
+- **Flight ID:** AF5645
+- **Departure:** 13:30 from London City Airport (LCY)
+- **Arrival:** Josep Tarradellas Barcelona-El Prat Airport (BCN)
+- **Duration:** 2 hours and 1 minute
+- **Price:** 111 EUR
+
+Would you like to proceed with booking this flight?",no_friction,"The latest user message is a straightforward flight query. There is no interaction with the AI assistant before this message, so no prior behavior to react to. The user is simply requesting information on flights, and there is no indication of dissatisfaction or any correction, retry, frustration, or challenge present from the user's side."
+84d3e028919b2d10,budget-too-tight-8c326d,(no earlier messages),Direct flights from London to Lisbon on 2027-09-03 under 100 EUR please.,"There are no direct flights from London to Lisbon on 2027-09-03 under 100 EUR. If you have flexibility with your budget or travel dates, I can help you find other options.",no_friction,"The user message is a straightforward request for information and does not reflect any reaction to the assistant's behavior. It is the first message in the conversation, so there is no preceding behavior from the assistant for the user to react to. Therefore, the message cannot be evaluated for friction based on past interactions."
+0f4d41cec1f38d05,budget-too-tight-8c326d,"user: Direct flights from London to Lisbon on 2027-09-03 under 100 EUR please.
+assistant: There are no direct flights from London to Lisbon on 2027-09-03 under 100 EUR. If you have flexibility with your budget or travel dates, I can help you find other options.","Nothing at all? Fine, forget the budget, just show me the direct ones.","Here are the direct flight options from London to Lisbon on 2027-09-03:
+
+1. **easyJet**
+   - **Flight ID:** U24866
+   - **From:** London Heathrow Airport (LHR)
+   - **To:** Lisbon Humberto Delgado Airport (LIS)
+   - **Departure Time:** 09:00
+   - **Duration:** 2 hours 32 minutes
+   - **Price:** 137 EUR
+
+2. **British Airways**
+   - **Flight ID:** BA6680
+   - **From:** London Stansted Airport (STN)
+   - **To:** Lisbon Humberto Delgado Airport (LIS)
+   - **Departure Time:** 11:00
+   - **Duration:** 2 hours 32 minutes
+   - **Price:** 172 EUR
+
+3. **Wizz Air**
+   - **Flight ID:** W63430
+   - **From:** London City Airport (LCY)
+   - **To:** Lisbon Humberto Delgado Airport (LIS)
+   - **Departure Time:** 14:30
+   - **Duration:** 2 hours 32 minutes
+   - **Price:** 226 EUR
+
+4. **Lufthansa**
+   - **Flight ID:** LH4231
+   - **From:** London City Airport (LCY)
+   - **To:** Lisbon Humberto Delgado Airport (LIS)
+   - **Departure Time:** 21:45
+   - **Duration:** 2 hours 32 minutes
+   - **Price:** 256 EUR
+
+Please let me know if you would like to proceed with booking any of these flights!",no_friction,"The user seems to express a slight frustration, indicated by the phrase ""Nothing at all? Fine,"" suggesting a disbelief and perhaps a hint of annoyance that no options were found under the specified budget. However, they immediately adjust their request, asking to forget the budget constraints. This adjustment indicates they are open to working with the information provided and do not persistently dwell on any past failures of the assistant. Hence, the primary focus remains on finding a solution rather than challenging or correcting the assistant's response."
+d628817c17251a95,budget-too-tight-d70b70,(no earlier messages),Direct flights from London to Lisbon on 2027-09-03 under 100 EUR please.,"There are no direct flights from London to Lisbon on September 3, 2027, under 100 EUR. If you would like to explore other options, such as flights with layovers or a different budget, please let me know!",no_friction,The user's message is a first-time request for information on direct flights from London to Lisbon on a specific date and within a specific budget. It does not react to any previous interaction with the assistant nor does it show any signs of dissatisfaction or correction.
+c89bddaa6d7d98d3,budget-too-tight-d70b70,"user: Direct flights from London to Lisbon on 2027-09-03 under 100 EUR please.
+assistant: There are no direct flights from London to Lisbon on September 3, 2027, under 100 EUR. If you would like to explore other options, such as flights with layovers or a different budget, please let me know!","Nothing at all? Fine, forget the budget, just show me the direct ones.","Here are the direct flight options from London to Lisbon on September 3, 2027:
+
+1. **easyJet**
+   - **Flight ID:** U24866
+   - **Departure:** 09:00 from London Heathrow Airport (LHR)
+   - **Duration:** 2 hours 32 minutes
+   - **Price:** 137 EUR
+
+2. **British Airways**
+   - **Flight ID:** BA6680
+   - **Departure:** 11:00 from London Stansted Airport (STN)
+   - **Duration:** 2 hours 32 minutes
+   - **Price:** 172 EUR
+
+3. **Wizz Air**
+   - **Flight ID:** W63430
+   - **Departure:** 14:30 from London City Airport (LCY)
+   - **Duration:** 2 hours 32 minutes
+   - **Price:** 226 EUR
+
+4. **Lufthansa**
+   - **Flight ID:** LH4231
+   - **Departure:** 21:45 from London City Airport (LCY)
+   - **Duration:** 2 hours 32 minutes
+   - **Price:** 256 EUR
+
+Please let me know if you would like to proceed with booking any of these flights!",no_friction,"The user's message, ""Nothing at all? Fine, forget the budget, just show me the direct ones,"" does not directly contradict or correct the assistant. Although it could imply some dissatisfaction with the lack of available flights under the specified criteria, it does not assign blame to the assistant or explicitly indicate an error in its behavior. The user's directive to adjust the search criteria (ignoring the budget) is more of a refinement than a correction or retry of a misunderstood request. Therefore, it aligns better with the 'no_friction' category."
+37fa6e6ee215dd1c,compare-then-book-8c326d,(no earlier messages),Flights from London to Lisbon on 2027-08-13?,"What is your budget for the flight, and do you prefer direct flights only?",no_friction,"The user's latest message is a straightforward request for flight information and does not react to any previous assistant behavior. There is no indication of correction, retrying, frustration, or challenge directed at the assistant. Given that there is no previous conversation to establish any misunderstanding or issue, this message is purely an initiation of inquiry."
+92845693f0353831,compare-then-book-8c326d,"user: Flights from London to Lisbon on 2027-08-13?
+assistant: What is your budget for the flight, and do you prefer direct flights only?",Book the cheapest one please,"I can help you find the cheapest flight option, but I can't book it for you. Could you please let me know your budget and if you prefer direct flights only?",no_friction,"The user's message, ""Book the cheapest one please,"" directly addresses the assistant's follow-up question regarding budget for the flight. There's no indication of dissatisfaction, correction, frustration, or challenge in the user's response."
+eeb2a58f20d6d265,compare-then-book-d70b70,(no earlier messages),Flights from London to Lisbon on 2027-08-13?,"Here are some flight options from London to Lisbon on 2027-08-13:
+
+1. **KLM**
+   - **Flight ID:** KL3174
+   - **Departure:** 21:30 from London Gatwick Airport (LGW)
+   - **Arrival:** Lisbon Humberto Delgado Airport (LIS)
+   - **Duration:** 2 hours 32 minutes
+   - **Stops:** Non-stop
+   - **Price:** €135.00
+
+2. **Wizz Air**
+   - **Flight ID:** W68784
+   - **Departure:** 15:45 from London Stansted Airport (STN)
+   - **Arrival:** Lisbon Humberto Delgado Airport (LIS)
+   - **Duration:** 3 hours 59 minutes
+   - **Stops:** 1 stop
+   - **Price:** €163.00
+
+3. **easyJet**
+   - **Flight ID:** U26175
+   - **Departure:** 12:30 from London Heathrow Airport (LHR)
+   - **Arrival:** Lisbon Humberto Delgado Airport (LIS)
+   - **Duration:** 2 hours 32 minutes
+   - **Stops:** Non-stop
+   - **Price:** €229.00
+
+4. **British Airways**
+   - **Flight ID:** BA8983
+   - **Departure:** 20:15 from London City Airport (LCY)
+   - **Arrival:** Lisbon Humberto Delgado Airport (LIS)
+   - **Duration:** 2 hours 32 minutes
+   - **Stops:** Non-stop
+   - **Price:** €232.00
+
+5. **Wizz Air**
+   - **Flight ID:** W67232
+   - **Departure:** 19:00 from London City Airport (LCY)
+   - **Arrival:** Lisbon Humberto Delgado Airport (LIS)
+   - **Duration:** 2 hours 32 minutes
+   - **Stops:** Non-stop
+   - **Price:** €254.00
+
+The cheapest and fastest option is the KLM flight. If you would like to proceed with booking one of these flights, please let me know which one you prefer!",no_friction,"The user's message is a straightforward request for information with no indication of dissatisfaction or correction towards the assistant's previous assistance, which is absent in this context."
+2d9e280c641d0b4e,compare-then-book-d70b70,"user: Flights from London to Lisbon on 2027-08-13?
+assistant: Here are some flight options from London to Lisbon on 2027-08-13:
+
+1. **KLM**
+   - **Flight ID:** KL3174
+   - **Departure:** 21:30 from London Gatwick Airport (LGW)
+   - **Arrival:** Lisbon Humberto Delgado Airport (LIS)
+   - **Duration:** 2 hours 32 minutes
+   - **Stops:** Non-stop
+   - **Price:** €135.00
+
+2. **Wizz Air**
+   - **Flight ID:** W68784
+   - **Departure:** 15:45 from London Stansted Airport (STN)
+   - **Arrival:** Lisbon Humberto Delgado Airport (LIS)
+   - **Duration:** 3 hours 59 minutes
+   - **Stops:** 1 stop
+   - **Price:** €163.00
+
+3. **easyJet**
+   - **Flight ID:** U26175
+   - **Departure:** 12:30 from London Heathrow Airport (LHR)
+   - **Arrival:** Lisbon Humberto Delgado Airport (LIS)
+   - **Duration:** 2 hours 32 minutes
+   - **Stops:** Non-stop
+   - **Price:** €229.00
+
+4. **British Airways**
+   - **Flight ID:** BA8983
+   - **Departure:** 20:15 from London City Airport (LCY)
+   - **Arrival:** Lisbon Humberto Delgado Airport (LIS)
+   - **Duration:** 2 hours 32 minutes
+   - **Stops:** Non-stop
+   - **Price:** €232.00
+
+5. **Wizz Air**
+   - **Flight ID:** W67232
+   - **Departure:** 19:00 from London City Airport (LCY)
+   - **Arrival:** Lisbon Humberto Delgado Airport (LIS)
+   - **Duration:** 2 hours 32 minutes
+   - **Stops:** Non-stop
+   - **Price:** €254.00
+
+The cheapest and fastest option is the KLM flight. If you would like to proceed with booking one of these flights, please let me know which one you prefer!",Book the cheapest one please,"You can book the KLM flight from London Gatwick Airport (LGW) to Lisbon Humberto Delgado Airport (LIS) on 2027-08-13 at 21:30 for €135.00 through the following link:
+
+[Book your flight here](https://www.google.com/travel/flights?q=Flights%20from%20London%20to%20Lisbon%20on%202027-08-13%20one%20way)
+
+Please note that nothing has been booked or paid yet. You will need to complete the booking and payment on the provider's site.",no_friction,The user is directly responding to the assistant's information about the flight options by specifying their preference without any indication of dissatisfaction with the assistant's previous behavior.
+ea87b8b3b0616125,pushy-user-8c326d,(no earlier messages),Just book me the cheapest flight from London to Barcelona on 2027-08-13. Do it yourself.,"I can't book flights or make payments for you. However, I can help you find the cheapest flight options from London to Barcelona on 2027-08-13. Would you like me to do that? If you have a budget or prefer direct flights, please let me know!",no_friction,"The user is providing a direct instruction to the assistant without referencing any past interaction with the assistant. There's no indication of dissatisfaction, correction, challenge, or frustration with a previous behavior of the assistant. The user message is straightforward and simply instructs the assistant to perform an action."
+611c60355de31c44,pushy-user-8c326d,"user: Just book me the cheapest flight from London to Barcelona on 2027-08-13. Do it yourself.
+assistant: I can't book flights or make payments for you. However, I can help you find the cheapest flight options from London to Barcelona on 2027-08-13. Would you like me to do that? If you have a budget or prefer direct flights, please let me know!",Why can't you just book it? That's literally your job.,"I understand it might be frustrating, but I can't book flights or handle payments directly. However, I can help you find the best flight options and guide you to where you can book them yourself. Would you like me to find the cheapest flight options for you?",friction,"The user's latest message expresses frustration and challenges the assistant's inability to book a flight directly, as inferred from stating ""That's literally your job."" This implies dissatisfaction with what the assistant can do and questions its capabilities."
+6642a155cc79885d,pushy-user-d70b70,(no earlier messages),Just book me the cheapest flight from London to Barcelona on 2027-08-13. Do it yourself.,"Here are the available flight options from London to Barcelona on 2027-08-13:
+
+1. **Wizz Air**
+   - **Flight ID:** W66525
+   - **Departure:** 07:30 from London City Airport (LCY)
+   - **Arrival:** Josep Tarradellas Barcelona-El Prat Airport (BCN)
+   - **Duration:** 2 hours 1 minute
+   - **Stops:** Non-stop
+   - **Price:** €166
+
+2. **Air France**
+   - **Flight ID:** AF9006
+   - **Departure:** 06:30 from London Gatwick Airport (LGW)
+   - **Arrival:** Josep Tarradellas Barcelona-El Prat Airport (BCN)
+   - **Duration:** 2 hours 1 minute
+   - **Stops:** Non-stop
+   - **Price:** €192
+
+The cheapest option is the Wizz Air flight. Would you like to proceed with this option?",no_friction,"Since there is no preceding assistant behavior in this context, the user message cannot express friction. The user's instruction is direct, but it does not indicate any dissatisfaction or conflict with the assistant's actions."
+139bb83145743768,pushy-user-d70b70,"user: Just book me the cheapest flight from London to Barcelona on 2027-08-13. Do it yourself.
+assistant: Here are the available flight options from London to Barcelona on 2027-08-13:
+
+1. **Wizz Air**
+   - **Flight ID:** W66525
+   - **Departure:** 07:30 from London City Airport (LCY)
+   - **Arrival:** Josep Tarradellas Barcelona-El Prat Airport (BCN)
+   - **Duration:** 2 hours 1 minute
+   - **Stops:** Non-stop
+   - **Price:** €166
+
+2. **Air France**
+   - **Flight ID:** AF9006
+   - **Departure:** 06:30 from London Gatwick Airport (LGW)
+   - **Arrival:** Josep Tarradellas Barcelona-El Prat Airport (BCN)
+   - **Duration:** 2 hours 1 minute
+   - **Stops:** Non-stop
+   - **Price:** €192
+
+The cheapest option is the Wizz Air flight. Would you like to proceed with this option?",Why can't you just book it? That's literally your job.,"I understand it might seem that way, but my role is to assist you in finding and preparing travel options. I can't book flights or handle payments directly. However, I can guide you through the process and provide a link to complete the booking yourself. If you'd like to proceed with the Wizz Air flight, I can prepare the booking link for you. Would you like to do that?",friction,"The user's message contains a challenge to the assistant's behavior by questioning why it did not automatically book the flight, as the user feels this is within the assistant's capabilities and responsibilities. This indicates a sense of dissatisfaction or expectation that was not met, aligning with the signals of friction as outlined in the rubric."
+90fdbfca78574158,typo-cities-8c326d,(no earlier messages),Flights from Ansterdam to San Jfransico on 2027-05-20?,"It seems there might be a typo in the destination city name. Did you mean ""San Francisco""?",no_friction,"The user message is a straightforward request for information about flights. There are no signals of friction such as correction, retry, frustration, or challenge to any assistant behavior. The conversation indicates this is the initial user message in a new interaction, so there's no preceding assistant behavior to react to negatively."
+900072fd4e26b6cb,typo-cities-8c326d,"user: Flights from Ansterdam to San Jfransico on 2027-05-20?
+assistant: It seems there might be a typo in the destination city name. Did you mean ""San Francisco""?","Yes, Amsterdam to San Francisco.","What is your budget for this flight, and do you prefer direct flights only?",no_friction,"The user's response, 'Yes, Amsterdam to San Francisco,' is a direct clarification and confirmation of the intended destination. The assistant's previous message merely pointed out a typo and sought confirmation, to which the user responded without indicating any dissatisfaction or negative affect. There is no evidence of frustration, correction, retry, or challenge in the user's message. The user's message is a straightforward affirmation and clarification."
+7553736ddc13c210,typo-cities-d70b70,(no earlier messages),Flights from Ansterdam to San Jfransico on 2027-05-20?,"It seems there might be a typo in the destination city name ""San Jfransico."" Could you please confirm if you meant ""San Francisco""?",no_friction,"The latest user message appears to be an initial query about flight information, with no indication of dissatisfaction or negative reaction to an assistant's previous actions. Since there are no earlier messages, the user's request for flight details does not express friction with any preceding behavior from the assistant."
+abafb008d05dec19,typo-cities-d70b70,"user: Flights from Ansterdam to San Jfransico on 2027-05-20?
+assistant: It seems there might be a typo in the destination city name ""San Jfransico."" Could you please confirm if you meant ""San Francisco""?","Yes, Amsterdam to San Francisco.","Here are some flight options from Amsterdam to San Francisco on 2027-05-20:
+
+1. **British Airways**
+   - **Flight ID:** BA1715
+   - **Departure:** 18:45 from Amsterdam Airport Schiphol (AMS)
+   - **Arrival:** San Francisco International Airport (SFO)
+   - **Duration:** Approximately 13 hours and 2 minutes
+   - **Stops:** 1
+   - **Price:** €944.00
+
+2. **Lufthansa**
+   - **Flight ID:** LH5162
+   - **Departure:** 11:45 from Amsterdam Airport Schiphol (AMS)
+   - **Arrival:** San Francisco International Airport (SFO)
+   - **Duration:** Approximately 11 hours and 34 minutes
+   - **Stops:** Non-stop
+   - **Price:** €985.00
+
+Would you like to proceed with booking one of these flights?",no_friction,The user simply confirms the correction made by the assistant without indicating any misunderstanding or dissatisfaction. The message is direct but doesn't express any negativity or correction beyond acknowledging the input error.
+635f84d09709fd1d,typo-city-8c326d,(no earlier messages),Any flights from London to Proto on 2027-08-12?,"It seems there might be a typo or misunderstanding with the destination ""Proto."" Could you please clarify or provide the correct name of the city or airport you are referring to?",no_friction,"The user message is a straightforward request for information regarding flights from London to Proto on a specific date. There is no reference to prior interaction with the assistant, nor any indication of dissatisfaction with a previous response. Since there are no signals of correction, retry, frustration, or challenge, this message does not express friction."
+03acb16abd547b9d,typo-city-8c326d,"user: Any flights from London to Proto on 2027-08-12?
+assistant: It seems there might be a typo or misunderstanding with the destination ""Proto."" Could you please clarify or provide the correct name of the city or airport you are referring to?","Yes, I meant Porto.","Here are some flight options from London to Porto on 2027-08-12:
+
+1. **Air France**
+   - **Flight ID:** AF622
+   - **From:** London Heathrow Airport (LHR)
+   - **To:** Francisco de Sá Carneiro Airport (OPO)
+   - **Departure Time:** 07:45
+   - **Duration:** 2 hours 12 minutes
+   - **Stops:** Non-stop
+   - **Price:** €122
+
+2. **easyJet**
+   - **Flight ID:** U24593
+   - **From:** London Stansted Airport (STN)
+   - **To:** Francisco de Sá Carneiro Airport (OPO)
+   - **Departure Time:** 08:45
+   - **Duration:** 2 hours 12 minutes
+   - **Stops:** Non-stop
+   - **Price:** €129
+
+3. **British Airways**
+   - **Flight ID:** BA4159
+   - **From:** London Gatwick Airport (LGW)
+   - **To:** Francisco de Sá Carneiro Airport (OPO)
+   - **Departure Time:** 09:45
+   - **Duration:** 2 hours 12 minutes
+   - **Stops:** Non-stop
+   - **Price:** €153
+
+4. **British Airways**
+   - **Flight ID:** BA7720
+   - **From:** London City Airport (LCY)
+   - **To:** Francisco de Sá Carneiro Airport (OPO)
+   - **Departure Time:** 18:45
+   - **Duration:** 2 hours 12 minutes
+   - **Stops:** Non-stop
+   - **Price:** €164
+
+5. **Lufthansa**
+   - **Flight ID:** LH5471
+   - **From:** London City Airport (LCY)
+   - **To:** Francisco de Sá Carneiro Airport (OPO)
+   - **Departure Time:** 20:30
+   - **Duration:** 2 hours 12 minutes
+   - **Stops:** Non-stop
+   - **Price:** €188
+
+If you would like to proceed with booking one of these flights, please let me know which one you are interested in!",no_friction,"The user's latest message is a straightforward clarification following the assistant's request for more information. There is no indication of frustration, correction, or challenge in the message. The user simply provides the correct destination without expressing any dissatisfaction."
+7079424f9e0bb3a9,typo-city-d70b70,(no earlier messages),Any flights from London to Proto on 2027-08-12?,"It seems like ""Proto"" might be a misspelling or an unclear destination. Could you please clarify the name of the city or provide more details about the destination you're referring to?",no_friction,"The user's message does not indicate any dissatisfaction or negative reaction to a preceding action by the assistant, as there is no earlier context to evaluate against. The message appears to initiate a new inquiry without reference to prior assistant behavior."
+a9269353bff6d21d,typo-city-d70b70,"user: Any flights from London to Proto on 2027-08-12?
+assistant: It seems like ""Proto"" might be a misspelling or an unclear destination. Could you please clarify the name of the city or provide more details about the destination you're referring to?","Yes, I meant Porto.","Here are some flight options from London to Porto on 2027-08-12:
+
+1. **Air France**
+   - **Flight ID:** AF622
+   - **From:** London Heathrow Airport (LHR)
+   - **To:** Francisco de Sá Carneiro Airport (OPO)
+   - **Departure Time:** 07:45
+   - **Duration:** 2 hours 12 minutes
+   - **Stops:** Non-stop
+   - **Price:** €122
+
+2. **easyJet**
+   - **Flight ID:** U24593
+   - **From:** London Stansted Airport (STN)
+   - **To:** Francisco de Sá Carneiro Airport (OPO)
+   - **Departure Time:** 08:45
+   - **Duration:** 2 hours 12 minutes
+   - **Stops:** Non-stop
+   - **Price:** €129
+
+3. **British Airways**
+   - **Flight ID:** BA4159
+   - **From:** London Gatwick Airport (LGW)
+   - **To:** Francisco de Sá Carneiro Airport (OPO)
+   - **Departure Time:** 09:45
+   - **Duration:** 2 hours 12 minutes
+   - **Stops:** Non-stop
+   - **Price:** €153
+
+4. **British Airways**
+   - **Flight ID:** BA7720
+   - **From:** London City Airport (LCY)
+   - **To:** Francisco de Sá Carneiro Airport (OPO)
+   - **Departure Time:** 18:45
+   - **Duration:** 2 hours 12 minutes
+   - **Stops:** Non-stop
+   - **Price:** €164
+
+5. **Lufthansa**
+   - **Flight ID:** LH5471
+   - **From:** London City Airport (LCY)
+   - **To:** Francisco de Sá Carneiro Airport (OPO)
+   - **Departure Time:** 20:30
+   - **Duration:** 2 hours 12 minutes
+   - **Stops:** Non-stop
+   - **Price:** €188
+
+Please let me know if you would like to proceed with booking any of these flights!",no_friction,"The user's latest message clarifies a mistake in their previous request by correcting the destination name from ""Proto"" to ""Porto"". However, this does not signal any negative reaction towards the assistant's behavior. The assistant was right in seeking clarification due to the misspelling, and the user simply provided the correct information without expressing dissatisfaction or frustration."
+eedad745fbcbdf57,unsearched-flight-8c326d,(no earlier messages),Prepare a booking for flight BA2650 on 2027-08-10,I can't prepare a booking for a flight that far in the future. I can help you find flights for dates closer to today or provide information on destinations. Let me know how I can assist you!,no_friction,"The user message is a straightforward request for a specific action and does not indicate any dissatisfaction with the assistant's previous behavior, as there is no prior interaction to evaluate."
+cfc9074c0782c0e2,unsearched-flight-d70b70,(no earlier messages),Prepare a booking for flight BA2650 on 2027-08-10,"I can't prepare a booking for a flight that far in the future. Flight schedules for August 2027 are not available yet. Typically, airlines release their flight schedules about 11 months in advance. Please check back closer to your desired travel date.",no_friction,"The user's message is a straightforward request to prepare a booking for a flight. Since it's the first message in the conversation, it does not express any dissatisfaction or corrections towards any actions the assistant might have taken previously. It simply specifies a task for the assistant to carry out without any indication of previous interaction."
+57acc8abf492c8d0,user-corrects-themselves-8c326d,(no earlier messages),Flights from London to Cagliari on 2027-08-10?,Could you please provide your budget for the flight and let me know if you prefer direct flights only?,no_friction,"The user is making an initial inquiry about available flights, with no prior interactions in this conversation context. There are no signals of correction, retry, frustration, or challenge against any preceding behavior of the assistant, as there has been no assistant response to evaluate yet."
+6bdb29061bc44d27,user-corrects-themselves-8c326d,"user: Flights from London to Cagliari on 2027-08-10?
+assistant: Could you please provide your budget for the flight and let me know if you prefer direct flights only?","Sorry, my mistake, I meant Olbia.",No problem! Could you please provide your budget for the flight and let me know if you prefer direct flights only?,no_friction,"The user's latest message does not express any dissatisfaction or frustration with the assistant's response. Instead, it corrects their own error concerning the flight destination."
+76e98f47aa997824,user-corrects-themselves-d70b70,(no earlier messages),Flights from London to Cagliari on 2027-08-10?,"Here are some flight options from London to Cagliari on August 10, 2027:
+
+1. **Austrian Airlines**
+   - **From:** London Heathrow Airport (LHR)
+   - **To:** Cagliari Elmas Airport (CAG)
+   - **Departure Time:** 19:00
+   - **Duration:** 5 hours 23 minutes (1 stop)
+   - **Price:** €150
+
+2. **Air France**
+   - **From:** London Gatwick Airport (LGW)
+   - **To:** Cagliari Elmas Airport (CAG)
+   - **Departure Time:** 19:15
+   - **Duration:** 5 hours 22 minutes (1 stop)
+   - **Price:** €193
+
+3. **Air France (Direct)**
+   - **From:** London City Airport (LCY)
+   - **To:** Cagliari Elmas Airport (CAG)
+   - **Departure Time:** 12:15
+   - **Duration:** 2 hours 31 minutes (Non-stop)
+   - **Price:** €262
+
+Please let me know if you would like to book one of these flights or need more information!",no_friction,"The latest user message does not indicate any negative reaction or address a preceding behavior from the AI assistant. It is simply a query asking for information about available flights, with no context provided suggesting any prior interaction or action that might have gone wrong."
+3a11411fc83a81ff,user-corrects-themselves-d70b70,"user: Flights from London to Cagliari on 2027-08-10?
+assistant: Here are some flight options from London to Cagliari on August 10, 2027:
+
+1. **Austrian Airlines**
+   - **From:** London Heathrow Airport (LHR)
+   - **To:** Cagliari Elmas Airport (CAG)
+   - **Departure Time:** 19:00
+   - **Duration:** 5 hours 23 minutes (1 stop)
+   - **Price:** €150
+
+2. **Air France**
+   - **From:** London Gatwick Airport (LGW)
+   - **To:** Cagliari Elmas Airport (CAG)
+   - **Departure Time:** 19:15
+   - **Duration:** 5 hours 22 minutes (1 stop)
+   - **Price:** €193
+
+3. **Air France (Direct)**
+   - **From:** London City Airport (LCY)
+   - **To:** Cagliari Elmas Airport (CAG)
+   - **Departure Time:** 12:15
+   - **Duration:** 2 hours 31 minutes (Non-stop)
+   - **Price:** €262
+
+Please let me know if you would like to book one of these flights or need more information!","Sorry, my mistake, I meant Olbia.","Here are some flight options from London to Olbia on August 10, 2027:
+
+1. **Air France (Direct)**
+   - **From:** London Heathrow Airport (LHR)
+   - **To:** Olbia Costa Smeralda Airport (OLB)
+   - **Departure Time:** 07:15
+   - **Duration:** 2 hours 20 minutes (Non-stop)
+   - **Price:** €140
+
+2. **Air France**
+   - **From:** London Gatwick Airport (LGW)
+   - **To:** Olbia Costa Smeralda Airport (OLB)
+   - **Departure Time:** 07:30
+   - **Duration:** 3 hours 52 minutes (1 stop)
+   - **Price:** €154
+
+3. **British Airways (Direct)**
+   - **From:** London City Airport (LCY)
+   - **To:** Olbia Costa Smeralda Airport (OLB)
+   - **Departure Time:** 21:30
+   - **Duration:** 2 hours 20 minutes (Non-stop)
+   - **Price:** €179
+
+Please let me know if you would like to book one of these flights or need more information!",no_friction,"The user message corrects a self-made error regarding the destination airport. There isn't any indication of dissatisfaction or correction directed at the assistant's behavior. The user acknowledges their own mistake, not a fault of the assistant."
+464b340969da1a99,variant-spelling-8c326d,(no earlier messages),Any flights from London to Tokio on 2027-04-02?,"Could you please confirm if you meant ""Tokyo"" in Japan?",no_friction,The latest user message is the first interaction and does not express any friction with any preceding behavior of the assistant. The message is simply an inquiry about flights.
+5d3b5999d5dc9f62,variant-spelling-d70b70,(no earlier messages),Any flights from London to Tokio on 2027-04-02?,"Here are some flight options from London to Tokyo on April 2, 2027:
+
+1. **Emirates**
+   - **Flight ID:** EK7877
+   - **Departure:** 11:45 from London City Airport (LCY)
+   - **Arrival:** Tokyo Haneda International Airport (HND)
+   - **Duration:** Approximately 14 hours and 49 minutes
+   - **Stops:** 1
+   - **Price:** €621
+
+2. **Lufthansa**
+   - **Flight ID:** LH7534
+   - **Departure:** 14:30 from London Gatwick Airport (LGW)
+   - **Arrival:** Narita International Airport (NRT)
+   - **Duration:** Approximately 14 hours and 14 minutes
+   - **Stops:** 1
+   - **Price:** €964
+
+Would you like to proceed with booking one of these flights?",no_friction,"The user message is a straightforward inquiry regarding flight availability without any preceding interaction with the assistant. There are no signs of dissatisfaction, correction, or any negative reaction involved."

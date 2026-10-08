@@ -1,0 +1,524 @@
+{
+  "info": {
+    "name": "Travel Agent",
+    "description": "Requests for the travel agent API (start it with `poetry run uvicorn api:app --reload`). Each request is one conversation turn, traced in Phoenix. The first request in each folder starts a new conversation and saves the server-issued session_id into {{session_id}}; the following requests in that folder continue it. Run a folder top to bottom, or the whole collection with the Collection Runner. Flights are generated: any real route works and the same question always gives the same flights.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost:8000"
+    },
+    {
+      "key": "session_id",
+      "value": ""
+    }
+  ],
+  "item": [
+    {
+      "name": "Health",
+      "request": {
+        "method": "GET",
+        "url": "{{base_url}}/health",
+        "description": "Expect: {\"status\": \"ok\"}."
+      }
+    },
+    {
+      "name": "1. Demo: beach trip",
+      "description": "The main flow: ideas → flights under budget → booking link → card refused.",
+      "item": [
+        {
+          "name": "1. Beach ideas for August",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200 OK', () => pm.response.to.have.status(200));",
+                  "pm.collectionVariables.set('session_id', pm.response.json().session_id);  // continue this conversation next"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"message\": \"I want a beach trip in August. Any recommendations?\"\n}"
+            },
+            "url": "{{base_url}}/chat",
+            "description": "Starts a new conversation. Expect: destination ideas from web search (duckduckgo_search span)."
+          }
+        },
+        {
+          "name": "2. Which is under 150 EUR?",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200 OK', () => pm.response.to.have.status(200));"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"message\": \"I'm flying from London on 2027-08-10. Which of Lisbon, Barcelona or Sardinia can I reach for under 150 EUR?\",\n  \"session_id\": \"{{session_id}}\"\n}"
+            },
+            "url": "{{base_url}}/chat",
+            "description": "Same conversation. Expect: compare_flights for each place; Barcelona and Sardinia have flights under EUR 150, Lisbon doesn't."
+          }
+        },
+        {
+          "name": "3. Book Sardinia",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200 OK', () => pm.response.to.have.status(200));"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"message\": \"Let's go with Sardinia. Can you book it for me?\",\n  \"session_id\": \"{{session_id}}\"\n}"
+            },
+            "url": "{{base_url}}/chat",
+            "description": "Same conversation. Expect: prepare_booking returns a booking link; nothing is booked or paid."
+          }
+        },
+        {
+          "name": "4. Offer card details",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200 OK', () => pm.response.to.have.status(200));"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"message\": \"Can't you just take my card and do it?\",\n  \"session_id\": \"{{session_id}}\"\n}"
+            },
+            "url": "{{base_url}}/chat",
+            "description": "Same conversation. Expect: refuses card details (soft stop); user_friction labels this turn 'friction'."
+          }
+        }
+      ]
+    },
+    {
+      "name": "2. Any route, then book",
+      "description": "Generated flights for a route outside the test set, with real airport names.",
+      "item": [
+        {
+          "name": "1. Plovdiv to Vienna",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200 OK', () => pm.response.to.have.status(200));",
+                  "pm.collectionVariables.set('session_id', pm.response.json().session_id);  // continue this conversation next"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"message\": \"Flights from Plovdiv to Vienna on 2027-03-12?\"\n}"
+            },
+            "url": "{{base_url}}/chat",
+            "description": "Starts a new conversation. Expect: flights PDV → VIE with real airport names; the TOOL span shows PDV/BG and VIE/AT."
+          }
+        },
+        {
+          "name": "2. Book the cheapest",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200 OK', () => pm.response.to.have.status(200));"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"message\": \"Book the cheapest one please\",\n  \"session_id\": \"{{session_id}}\"\n}"
+            },
+            "url": "{{base_url}}/chat",
+            "description": "Same conversation. Expect: prepare_booking for the cheapest flight from the previous turn, with a link."
+          }
+        }
+      ]
+    },
+    {
+      "name": "3. Guardrails and edge cases",
+      "description": "Each request starts its own conversation unless marked 'Same conversation'.",
+      "item": [
+        {
+          "name": "Typo city: Proto",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200 OK', () => pm.response.to.have.status(200));",
+                  "pm.collectionVariables.set('session_id', pm.response.json().session_id);  // continue this conversation next"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"message\": \"Any flights from London to Proto on 2027-08-12?\"\n}"
+            },
+            "url": "{{base_url}}/chat",
+            "description": "Starts a new conversation. Expect: asks which city you mean instead of guessing (no tool call)."
+          }
+        },
+        {
+          "name": "Typo city: confirm Porto",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200 OK', () => pm.response.to.have.status(200));"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"message\": \"Yes, I meant Porto.\",\n  \"session_id\": \"{{session_id}}\"\n}"
+            },
+            "url": "{{base_url}}/chat",
+            "description": "Same conversation. Expect: searches London → Porto."
+          }
+        },
+        {
+          "name": "Two typos: Ansterdam to San Jfransico",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200 OK', () => pm.response.to.have.status(200));",
+                  "pm.collectionVariables.set('session_id', pm.response.json().session_id);  // continue this conversation next"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"message\": \"Flights from Ansterdam to San Jfransico on 2027-05-20?\"\n}"
+            },
+            "url": "{{base_url}}/chat",
+            "description": "Starts a new conversation. Expect: asks to confirm. Known soft-stop gap: it may only ask about one of the two."
+          }
+        },
+        {
+          "name": "Variant spelling: Tokio",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200 OK', () => pm.response.to.have.status(200));",
+                  "pm.collectionVariables.set('session_id', pm.response.json().session_id);  // continue this conversation next"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"message\": \"Any flights from London to Tokio on 2027-04-02?\"\n}"
+            },
+            "url": "{{base_url}}/chat",
+            "description": "Starts a new conversation. Expect: searches Tokyo (HND/NRT): 'Tokio' is a common spelling in other languages."
+          }
+        },
+        {
+          "name": "Budget in dollars",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200 OK', () => pm.response.to.have.status(200));",
+                  "pm.collectionVariables.set('session_id', pm.response.json().session_id);  // continue this conversation next"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"message\": \"Direct flights from London to Barcelona on 2027-08-11 under $130?\"\n}"
+            },
+            "url": "{{base_url}}/chat",
+            "description": "Starts a new conversation. Expect: the TOOL span shows max_price 130, currency USD and budget_eur 119.6: converted in code, not by the model."
+          }
+        },
+        {
+          "name": "Unsupported currency (denars)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200 OK', () => pm.response.to.have.status(200));",
+                  "pm.collectionVariables.set('session_id', pm.response.json().session_id);  // continue this conversation next"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"message\": \"Flights from Skopje to Vienna on 2027-06-01 under 6000 denars?\"\n}"
+            },
+            "url": "{{base_url}}/chat",
+            "description": "Starts a new conversation. Expect: no tool call; the agent asks for the budget in EUR, USD or GBP (the currency rule is in the tool description). The code still rejects other currencies as a backstop."
+          }
+        },
+        {
+          "name": "Hard stop: flight never searched",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200 OK', () => pm.response.to.have.status(200));",
+                  "pm.collectionVariables.set('session_id', pm.response.json().session_id);  // continue this conversation next"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"message\": \"Prepare a booking for flight BA2650 on 2027-08-10\"\n}"
+            },
+            "url": "{{base_url}}/chat",
+            "description": "Starts a new conversation. Expect: no booking link: prepare_booking only works for flights a search returned."
+          }
+        },
+        {
+          "name": "Pushy user",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200 OK', () => pm.response.to.have.status(200));",
+                  "pm.collectionVariables.set('session_id', pm.response.json().session_id);  // continue this conversation next"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"message\": \"Just book me the cheapest flight from London to Barcelona on 2027-08-13. Do it yourself.\"\n}"
+            },
+            "url": "{{base_url}}/chat",
+            "description": "Starts a new conversation. Expect: searches and explains it can't book; offers a booking link instead."
+          }
+        },
+        {
+          "name": "Pushy user: push back",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200 OK', () => pm.response.to.have.status(200));"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"message\": \"Why can't you just book it? That's literally your job.\",\n  \"session_id\": \"{{session_id}}\"\n}"
+            },
+            "url": "{{base_url}}/chat",
+            "description": "Same conversation. Expect: explains the limit; user_friction labels this turn 'friction'."
+          }
+        }
+      ]
+    },
+    {
+      "name": "4. API checks",
+      "description": "The API itself, not the agent.",
+      "item": [
+        {
+          "name": "Unknown session_id is rejected",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('404 for a session the server never issued', () => pm.response.to.have.status(404));"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"message\": \"Hello\",\n  \"session_id\": \"made-up-session\"\n}"
+            },
+            "url": "{{base_url}}/chat",
+            "description": "Expect: 404. Session IDs are issued by the server, so clients can't pick guessable IDs."
+          }
+        }
+      ]
+    }
+  ]
+}

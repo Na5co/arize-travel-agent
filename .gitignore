@@ -7,3 +7,13 @@ __pycache__/
 *.egg-info/
 dist/
 build/
+.phoenix/
+.DS_Store
+.pytest_cache/
+.ruff_cache/
+
+# Added by px setup — local Phoenix credentials
+.env.phoenix
+
+# Added by px setup — local Phoenix credentials
+.px/

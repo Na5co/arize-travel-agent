@@ -1,13 +1,13 @@
 [tool.poetry]
 name = "se-interview"
 version = "0.1.0"
-description = "A simple LangGraph agent with web search capability"
+description = "LangGraph travel agent with Arize Phoenix tracing and evaluation"
 authors = ["Your Name <your.email@example.com>"]
 readme = "README.md"
 package-mode = false
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.11,<3.15"
 langgraph = "^0.2"
 langchain = "^0.3"
 langchain-community = "^0.3"
@@ -16,7 +16,28 @@ ddgs = "^9.0"
 python-dotenv = "^1.0"
 fastapi = "^0.115"
 uvicorn = "^0.32"
+arize-phoenix-otel = "^0.17.2"
+openinference-instrumentation-langchain = "^0.1.78"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "pytest (>=9.1.1,<10.0.0)"
+]
+eval = [
+    "arize-phoenix-evals (>=3.9.0,<4.0.0)",
+    "arize-phoenix-client (>=3.5.0,<4.0.0)",
+    "pandas (>=3.0.6,<4.0.0)"
+]
+
+[tool.ruff.lint]
+# The folder is named "se-interview" (from the starter repo), which isn't a valid Python
+# module name. Nothing imports it as a package (package-mode = false), so the rule doesn't apply.
+ignore = ["N999"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
