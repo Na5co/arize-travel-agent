@@ -37,7 +37,7 @@ curl -s -X POST localhost:8000/chat -H "Content-Type: application/json" \
 # {"response": "Here are the flights…", "session_id": "3f9c…"}  → send session_id back to continue
 ```
 
-A Postman collection is in `travel-agent.postman_collection.json`. Tests: `poetry run pytest` (offline, no LLM calls).
+Postman: `travel-agent-demo.postman_collection.json` plays one short conversation (run its folder); `travel-agent.postman_collection.json` has every scenario. Tests: `poetry run pytest` (offline, no LLM calls).
 
 ## Agent architecture
 

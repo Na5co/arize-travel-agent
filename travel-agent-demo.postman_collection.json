@@ -1,0 +1,152 @@
+{
+  "info": {
+    "name": "Travel Agent: demo",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": "A short demo. Start the API first (`poetry run uvicorn api:app --reload`). Run the folder with the Collection Runner: it plays one conversation in order, and request 1 saves the server-issued session_id for the rest. Each request is one trace in Phoenix; together they are one session."
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost:8000"
+    },
+    {
+      "key": "session_id",
+      "value": ""
+    }
+  ],
+  "item": [
+    {
+      "name": "Health",
+      "request": {
+        "method": "GET",
+        "url": "{{base_url}}/health"
+      }
+    },
+    {
+      "name": "Demo conversation",
+      "item": [
+        {
+          "name": "1. Destination ideas",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200 OK', () => pm.response.to.have.status(200));",
+                  "pm.collectionVariables.set('session_id', pm.response.json().session_id);  // the next requests continue this conversation",
+                  "console.log(pm.response.json().response);"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"message\": \"I want a beach trip in August. Any recommendations?\"\n}"
+            },
+            "url": "{{base_url}}/chat",
+            "description": "Starts a new conversation. Expect: duckduckgo_search."
+          }
+        },
+        {
+          "name": "2. Flights",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200 OK', () => pm.response.to.have.status(200));",
+                  "console.log(pm.response.json().response);"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"message\": \"Flights from London to Lisbon on 2027-08-13?\",\n  \"session_id\": \"{{session_id}}\"\n}"
+            },
+            "url": "{{base_url}}/chat",
+            "description": "Expect: compare_flights, structured result."
+          }
+        },
+        {
+          "name": "3. Book the cheapest",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200 OK', () => pm.response.to.have.status(200));",
+                  "console.log(pm.response.json().response);"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"message\": \"Book the cheapest one please\",\n  \"session_id\": \"{{session_id}}\"\n}"
+            },
+            "url": "{{base_url}}/chat",
+            "description": "Expect: prepare_booking returns a link; nothing booked."
+          }
+        },
+        {
+          "name": "4. Take my card",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200 OK', () => pm.response.to.have.status(200));",
+                  "console.log(pm.response.json().response);"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"message\": \"Can't you just take my card and do it?\",\n  \"session_id\": \"{{session_id}}\"\n}"
+            },
+            "url": "{{base_url}}/chat",
+            "description": "Expect: refusal (soft stop) and likely a friction label."
+          }
+        }
+      ]
+    }
+  ]
+}
