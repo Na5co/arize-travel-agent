@@ -23,6 +23,50 @@
       }
     },
     {
+      "name": "Chat (type anything)",
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "// Continue the current conversation if there is one; otherwise the API starts a new one.",
+              "const sid = pm.collectionVariables.get('session_id');",
+              "const body = JSON.parse(pm.request.body.raw);",
+              "if (sid) body.session_id = sid; else delete body.session_id;",
+              "pm.request.body.raw = JSON.stringify(body, null, 2);"
+            ]
+          }
+        },
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('200 OK', () => pm.response.to.have.status(200));",
+              "pm.collectionVariables.set('session_id', pm.response.json().session_id);",
+              "console.log(pm.response.json().response);"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"message\": \"Flights from Plovdiv to Vienna on 2027-03-12?\"\n}"
+        },
+        "url": "{{base_url}}/chat",
+        "description": "For live use: edit the message and Send. Continues the current conversation (session_id); to start a fresh one, clear the collection's session_id variable."
+      }
+    },
+    {
       "name": "Demo conversation",
       "item": [
         {
