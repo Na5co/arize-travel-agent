@@ -11,6 +11,7 @@ The starter's LangGraph agent, extended into a travel assistant that compares fl
 > | Booking link: a Google Flights search for the route and date; the generated flight won't be there | The provider's deep link for the chosen flight |
 > | No authentication | Sessions tied to a logged-in user |
 > | In-memory conversations | Persistent checkpointer (e.g. `PostgresSaver`) |
+> | Test script calls the agent directly with readable session IDs (`beach-trip-d70b70`) | Server-issued IDs everywhere; scenario and run as span metadata |
 > | Card details: prompt rule only | Redact card numbers before the LLM sees them |
 
 ## Quick start
